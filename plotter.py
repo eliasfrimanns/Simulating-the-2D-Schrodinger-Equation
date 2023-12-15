@@ -199,16 +199,16 @@ def main():
     if len(sys.argv) > 1:
         number_of_slits = int(sys.argv[1])
         quantum_state = load_quantum_state(number_of_slits)
-        # print("\n1/5 - Plotting probability deviation")
-        # plot_probability_deviation(quantum_state, number_of_slits)
-        # print("2/5 - Plotting comparison between real and imaginary part of the quantum state.")
-        # plot_real_imag_comparison(quantum_state,0,39,45)
-        # print("3/5 - Plotting detection probability")
-        # plot_detection_probability(quantum_state,number_of_slits)
-        # print("4/5 - Plotting imaginary part, real part, and probability distribution.")
+        print("\n1/5 - Plotting probability deviation")
+        plot_probability_deviation(quantum_state, number_of_slits)
+        print("2/5 - Plotting comparison between real and imaginary part of the quantum state.")
+        plot_real_imag_comparison(quantum_state,0,39,45)
+        print("3/5 - Plotting detection probability")
+        plot_detection_probability(quantum_state,number_of_slits)
+        print("4/5 - Plotting imaginary part, real part, and probability distribution.")
         animate_probability_distribution(quantum_state,number_of_slits)
-        # print("5/5 - Animating probability distribution")
-        # plot_quantum_state(quantum_state,number_of_slits)
+        print("5/5 - Animating probability distribution")
+        plot_quantum_state(quantum_state,number_of_slits)
 
     else:
         for number_of_slits in range(1,4):
