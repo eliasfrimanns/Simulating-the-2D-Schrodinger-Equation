@@ -53,18 +53,18 @@ when linking depending on whether the library has a /include folder, og /lib fol
   ### Parameters:
   <p>
   <ol>
-  <li>h: the steplength, range = (0,1) default = 0.005</li>
-  <li>dt: the timestep length, range = (0, infinity) default = 2.5e-5 </li>
-  <li>T: Total time of simulation, range = (0, infinity)  default = 0.002 </li>
-  <li>x_c: centering of the wave packet in the x-axis, range = [0,1], default = 0.25</li>
-  <li>sigma_x: spread of the wave packet in the x-axis, range = [0,1] default = 0.05</li>
-    <li>p_x: momentum in the x-axis, range = none, default = 200</li>
-    <li>y_c: centering of the wave packet in the y-axis, range = [0,1] default = 0.5</li>
+    <li>h:       the steplength, range = (0,1) default = 0.005</li>
+    <li>dt:      the timestep length, range = (0, infinity) default = 2.5e-5 </li>
+    <li>T:       Total time of simulation, range = (0, infinity)  default = 0.002 </li>
+    <li>x_c:     centering of the wave packet in the x-axis, range = [0,1], default = 0.25</li>
+    <li>sigma_x: spread of the wave packet in the x-axis, range = [0,1] default = 0.05</li>
+    <li>p_x:     momentum in the x-axis, range = none, default = 200</li>
+    <li>y_c:     centering of the wave packet in the y-axis, range = [0,1] default = 0.5</li>
     <li>sigma_y: spread of the wave packet in the y-axis, range = [0,1] default = 0.2</li>
-    <li>p_y: momentum in the y-axis, range = none default = 0</li>
-    <li>v_0: the value of the potential in the slit wall, range = none, default = 1e10</li>
-    <li>N: number of slits, [-1, 2*h/slit width] default = 2        Having number of slits = -1 removes the wall.</li>
-    <li>y/n: Do you want to further modify the parameters of the slit wall? default = n</li>
+    <li>p_y:     momentum in the y-axis, range = none default = 0</li>
+    <li>v_0:     the value of the potential in the slit wall, range = none, default = 1e10</li>
+    <li>N:       number of slits, [-1, 2*h/slit width] default = 2        Having number of slits = -1 removes the wall.</li>
+    <li>y/n:     Do you want to further modify the parameters of the slit wall? default = n</li>
   </ol>
 
   if you pick <code>y</code> on the last parameter, you will be met with </br><code>Enter slit width, slit center, wall width and wall center: </code></br>
