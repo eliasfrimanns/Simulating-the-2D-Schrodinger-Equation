@@ -51,26 +51,31 @@ when linking depending on whether the library has a /include folder, og /lib fol
   <code>./main.exe [h] [dt] [T] [x_c] [sigma_x] [p_x] [y_c] [sigma_y] [p_y] [v_0] [N] [y/n]</code>
 
   ### Parameters:
-  <p>
-  <ol>
-    <li>h:       the steplength, range = (0,1) default = 0.005</li>
-    <li>dt:      the timestep length, range = (0, infinity) default = 2.5e-5 </li>
-    <li>T:       Total time of simulation, range = (0, infinity)  default = 0.002 </li>
-    <li>x_c:     centering of the wave packet in the x-axis, range = [0,1], default = 0.25</li>
-    <li>sigma_x: spread of the wave packet in the x-axis, range = [0,1] default = 0.05</li>
-    <li>p_x:     momentum in the x-axis, range = none, default = 200</li>
-    <li>y_c:     centering of the wave packet in the y-axis, range = [0,1] default = 0.5</li>
-    <li>sigma_y: spread of the wave packet in the y-axis, range = [0,1] default = 0.2</li>
-    <li>p_y:     momentum in the y-axis, range = none default = 0</li>
-    <li>v_0:     the value of the potential in the slit wall, range = none, default = 1e10</li>
-    <li>N:       number of slits, [-1, 2*h/slit width] default = 2        Having number of slits = -1 removes the wall.</li>
-    <li>y/n:     Do you want to further modify the parameters of the slit wall? default = n</li>
-  </ol>
+ 
+| Parameter name |                        Description                             |         Range        | Default value |
+|:---------------|:---------------------------------------------------------------|:--------------------:|--------------:|
+|    h           | The steplength                                                 | (0,1)                | 0.005         |
+|    dt          | The timestep length                                            | (0, infinity)        | 2.5e-5        |
+|    T           | Total time of simulation                                       | (0, infinity)        | 0.002         |
+|    x_c         | Centering of the wave packet in the x-axis                     | [0,1]                | 0.25          |
+|    sigma_x     | Spread of the wave packet in the x-axis                        | [0,1]                | 0.05          |
+|    p_x         | momentum in the x-axis                                         | none                 | 200           |
+|    y_c         | centering of the wave packet in the y-axis                     | [0,1]                | 0.5           |
+|    sigma_y     | spread of the wave packet in the y-axis                        | [0,1]                | 0.2           |
+|    p_y         | momentum in the y-axis                                         | none                 | 0             |
+|    v_0         | the value of the potential in the slit wall                    | none                 | 1e10          |
+|    N           | number of slits                                                | [-1, 2*h/slit width] | 2             |
+|    y/n         | Do you want to further modify the parameters of the slit wall? | y / n               1| n             |
+--------------------------------------------------------------------------------------------------------------------------
 
   if you pick <code>y</code> on the last parameter, you will be met with </br><code>Enter slit width, slit center, wall width and wall center: </code></br>
   The next step is trivial: you fill in the respective values. All of them have a range = [0,1]. The respective default values are 0.05, 0.5, 0.02 and 0.5.
+
+  Picking a the number of slits to be -1 will remove the wall.
   </p>
 
 </p>
+
+
 
 ## I will provide a description of the code later.
