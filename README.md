@@ -65,7 +65,7 @@ when linking depending on whether the library has a /include folder, og /lib fol
 |    p_y         | momentum in the y-axis                                         | none                 | 0             |
 |    v_0         | the value of the potential in the slit wall                    | none                 | 1e10          |
 |    N           | number of slits                                                | [-1, 2*h/slit width] | 2             |
-|    y/n         | Do you want to further modify the parameters of the slit wall? | y / n               1| n             |
+|    y/n         | Do you want to further modify the parameters of the slit wall? | y / n                | n             |
 --------------------------------------------------------------------------------------------------------------------------
 
   if you pick <code>y</code> on the last parameter, you will be met with </br><code>Enter slit width, slit center, wall width and wall center: </code></br>
