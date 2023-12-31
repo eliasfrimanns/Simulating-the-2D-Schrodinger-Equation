@@ -54,7 +54,7 @@ when linking depending on whether the library has a /include folder, og /lib fol
  
 | Parameter name |                        Description                             |         Range        | Default value |
 |:---------------|:---------------------------------------------------------------|:--------------------:|--------------:|
-|    h           | The steplength                                                 | (0,1)                | 0.005         |
+|    h           | The steplength, sets the spatial resolution                    | (0,1)                | 0.005         |
 |    dt          | The timestep length                                            | (0, infinity)        | 2.5e-5        |
 |    T           | Total time of simulation                                       | (0, infinity)        | 0.002         |
 |    x_c         | Centering of the wave packet in the x-axis                     | [0,1]                | 0.25          |
