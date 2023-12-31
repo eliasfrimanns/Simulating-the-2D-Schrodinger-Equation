@@ -69,7 +69,7 @@ when linking depending on whether the library has a /include folder, og /lib fol
 --------------------------------------------------------------------------------------------------------------------------
 
   if you pick <code>y</code> on the last parameter, you will be met with </br><code>Enter slit width, slit center, wall width and wall center: </code></br>
-  The next step is trivial: you fill in the respective values. All of them have a range = [0,1]. The respective default values are 0.05, 0.5, 0.02 and 0.5.
+  The next step is trivial: you fill in the respective values. All of them have a range = (0,1). The respective default values are 0.05, 0.5, 0.02 and 0.5.
 
   Picking a the number of slits to be -1 will remove the wall.
   </p>
