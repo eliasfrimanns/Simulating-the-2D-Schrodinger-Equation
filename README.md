@@ -42,8 +42,7 @@ when linking depending on whether the library has a /include folder, og /lib fol
 
 ## Running the code
 <p>
- If you want to run a default run, meaning a run without any special settings, run the command </br>
-  <code>make run</code>
+ If you want to run a default run, meaning a run without any special settings, run the command <code>make run</code>.
   This command will run the simulation for 1, 2 and 3 slits at default settings, and then run plotter.py to plot different aspects of the waves. </br>
 
   To run the simulation with different settings, run the command </br>
